@@ -1,0 +1,92 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+  margin: 0;
+  overflow: auto;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* from here */
+header {
+  height: 50px;
+  background-color: #2B2B2B;
+  text-align: center;
+  vertical-align: middle;
+}
+header ul {
+}
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  vertical-align: middle;
+}
+header li {
+  list-style-type: none;
+  padding: 15px;
+}
+header ul:after {
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+/* Up to here is the implementation of the header part */
+.main-header{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.main-header img {
+/* Implementation of main image (white “Achieve” text image) */
+width: 13%;
+}
+.about h1{
+/* About Implementation of Achieve part */
+font-size: 1.5rem;
+}
+.about p{
+  font-size: 0.8rem;
+}
+/* from here */
+.function {
+  display: block;
+  background-color: #D3D3D3;
+  padding: 15px;
+}
+.function h1{
+  font-size: 1.5rem;
+}
+.function-images {
+}
+.function-image {
+    display: inline-block;
+    margin: 10px;
+}
+.function-image img{
+  width: 50px;
+}
+.function-image p{
+  font-size: 0.8rem;
+}
+/* Up to here is the implementation of the function part */
+footer {
+/* Implementation of footer part */
+display: inline-block;
+background-color: #283A4B;
+color: #fff;
+font-size: 0.8rem;
+height: 70px;
+width: 100%;
+vertical-align: middle;
+text-align: center;
+}
