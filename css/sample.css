@@ -4,8 +4,6 @@ html {
 }
 body {
   text-align: center;
-  margin: 0;
-  overflow: auto;
 }
 .main-header {
   padding-bottom: 15%;
@@ -16,17 +14,16 @@ body {
 }
 /* from here */
 header {
+  margin-top: 0;
   height: 50px;
   background-color: #2B2B2B;
-  text-align: center;
-  vertical-align: middle;
 }
 header ul {
+  margin-right: 40px;
 }
 header ul a {
   color: #fff;
   text-decoration: none;
-  vertical-align: middle;
 }
 header li {
   list-style-type: none;
@@ -42,13 +39,12 @@ header ul:after {
 }
 /* Up to here is the implementation of the header part */
 .main-header{
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
+  height: 77px;
 }
 .main-header img {
 /* Implementation of main image (white “Achieve” text image) */
 width: 13%;
+margin-top: 110px;
 }
 .about h1{
 /* About Implementation of Achieve part */
@@ -61,7 +57,7 @@ font-size: 1.5rem;
 .function {
   display: block;
   background-color: #D3D3D3;
-  padding: 15px;
+  padding-top: 2px;
 }
 .function h1{
   font-size: 1.5rem;
@@ -87,6 +83,4 @@ color: #fff;
 font-size: 0.8rem;
 height: 70px;
 width: 100%;
-vertical-align: middle;
-text-align: center;
 }
